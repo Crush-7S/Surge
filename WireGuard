@@ -1,13 +1,2 @@
-  [Interface]
-    PrivateKey = QBzlzCnow39iS/z3Izl/ces8k7lMWD+Vtn1qXSte03E=
-    PublicKey = gQHnQkNmLS/Aat1zZ9aWMcw/TGILpsdQrli+Re1n2z4=
-    Address = 172.16.0.2
-    Address = fd01:5ca1:ab1e:8ff0:97eb:b471:5641:f308
-    DNS = 1.1.1.1
-    
-    [Peer]
-    PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    Endpoint = 162.159.192.9:2408
-    Endpoint = [2606:4700:d0::a29f:c009]:2408
-    Endpoint = engage.cloudflareclient.com:2408
-    AllowedIPs = 0.0.0.0/0
+ url = {"url":"https://api.cloudflareclient.com/v0i2109031904/reg/2dae736a-310b-4c81-b62e-229d817e8c9b","headers":{"Host":"api.cloudflareclient.com","User-Agent":"1.1.1.1/2109031904.1 CFNetwork/1327.0.4 Darwin/21.2.0","CF-Client-Version":"i-6.7-2109031904.1","Authorization":"Bearer 841f1f7f-52dc-48ed-8dd9-30068f9372ab"}}
+data = {"result":{"id":"2dae736a-310b-4c81-b62e-229d817e8c9b","type":"i","name":"","key":"gQHnQkNmLS/Aat1zZ9aWMcw/TGILpsdQrli+Re1n2z4=","account":{"id":"b0227898-e6ac-4901-9e7e-b337405de182","account_type":"free","created":"2022-01-21T09:17:04.928712028Z","updated":"2022-01-21T09:17:04.928712028Z","premium_data":0,"quota":0,"usage":0,"warp_plus":true,"referral_count":0,"referral_renewal_countdown":0,"role":"child","license":"5N04i9Vk-329dV0qw-0muh6A39"},"config":{"client_id":"gfh4","peers":[{"public_key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","endpoint":{"v4":"162.159.192.9:2408","v6":"[2606:4700:d0::a29f:c009]:2408","host":"engage.cloudflareclient.com:2408"}}],"interface":{"addresses":{"v4":"172.16.0.2","v6":"fd01:5ca1:ab1e:8ff0:97eb:b471:5641:f308"}},"services":{"http_proxy":"172.16.0.1:2480"},"metrics":{"ping":900,"report":900}},"warp_enabled":false,"waitlist_enabled":false,"created":"2022-01-21T09:17:04.619988058Z","updated":"2022-01-21T09:17:04.619988058Z","tos":"2022-01-21T09:17:04.059Z","place":0,"locale":"en-US","enabled":true,"install_id":"z0nz13ftrqf","fcm_token":"z0nz13ftrqf:APA91bz0vai0bilw5dynwk6klh7a8vz72at0o08zzuw9m4s4qofcboy7xd11wtjqwzy49rgsxqvqpr820wpde94u8slsi2df966ndacnee0dkwpo7mbh9hdyv4uaf2cmx9foubfccdym"},"success":true,"errors":[],"messages":[]}
