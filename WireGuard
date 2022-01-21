@@ -1,0 +1,13 @@
+  [Interface]
+    PrivateKey = QBzlzCnow39iS/z3Izl/ces8k7lMWD+Vtn1qXSte03E=
+    PublicKey = gQHnQkNmLS/Aat1zZ9aWMcw/TGILpsdQrli+Re1n2z4=
+    Address = 172.16.0.2
+    Address = fd01:5ca1:ab1e:8ff0:97eb:b471:5641:f308
+    DNS = 1.1.1.1
+    
+    [Peer]
+    PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    Endpoint = 162.159.192.9:2408
+    Endpoint = [2606:4700:d0::a29f:c009]:2408
+    Endpoint = engage.cloudflareclient.com:2408
+    AllowedIPs = 0.0.0.0/0
