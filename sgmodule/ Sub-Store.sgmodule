@@ -1,5 +1,9 @@
 #!name=Sub-Store
 #!desc=高级订阅管理工具 @Peng-YM
+
+[General]
+skip-proxy = %APPEND% iosapps.itunes.apple.com
+
 [MITM]
 hostname=%APPEND% sub.store
 
