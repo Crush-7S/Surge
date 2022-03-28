@@ -13,11 +13,11 @@ const STATUS_ERROR = -2
 
 const DEFAULT_OPTIONS = {
   title: 'Disney+ Unlock Detection',
-  availableContent: 'Support for Disney+, Region ➟ #REGION_NAME_EN#',
+  availableContent: 'Support for Disney+ _ Region ➟ #REGION_NAME_EN#',
   availableIcon: undefined,
   availableIconColor: undefined,
   availableStyle: 'good',
-  comingContent: 'Coming Soon, Region: #REGION_NAME_EN#',
+  comingContent: 'Coming Soon _ Region: #REGION_NAME_EN#',
   comingIcon: undefined,
   comingIconColor: undefined,
   comingStyle: 'info',
