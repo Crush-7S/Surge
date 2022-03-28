@@ -3,11 +3,11 @@ const FILM_ID = 81215567
 const AREA_TEST_FILM_ID = 80018499
 const DEFAULT_OPTIONS = {
   title: 'Netflix Unlock Detection',
-  fullContent: 'Support for Netflix ➟ Region: #REGION_NAME_EN#',
+  fullContent: 'Full Support for Netflix ➟ Region: #REGION_NAME_EN#',
   fullIcon: '',
   fullIconColor: '',
   fullStyle: 'good',
-  onlyOriginalContent: 'Only Support Original ➟ Region: #REGION_NAME_EN#',
+  onlyOriginalContent: 'Only Original ➟ Region: #REGION_NAME_EN#',
   onlyOriginalIcon: '',
   onlyOriginalIconColor: '',
   onlyOriginalStyle: 'info',
