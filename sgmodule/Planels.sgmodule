@@ -127,12 +127,11 @@ timecard = type=generic,timeout=10,script-path=https://raw.githubusercontent.com
 #disney_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com/Hyseen/729fc4c3ac28c3f2e7c4a832d81780f3/raw/disney_check.js
 
 
-Netflix Unlock Detection = type=generic,script-path=https://raw.githubusercontent.com/Crush-7S/Script/main/Netflix_Unlock_Detection_English.js,argument=title=Netflix Unlock Detection
+Netflix Unlock Detection = type=generic,script-path=https://raw.githubusercontent.com/Crush-7S/Surge/main/Netflix%20Unlock%20Detection.js,argument=title=Netflix Unlock Detection
 
-Disney+ Unlock Detection = type=generic,script-path=https://raw.githubusercontent.com/Crush-7S/Script/main/Disney_Unlock_Detection_English_new.js,argument=title=Disney+ Unlock Detection
+Disney+ Unlock Detection = type=generic,script-path=https://raw.githubusercontent.com/Crush-7S/Surge/main/Disney%2B%20Unlock%20Detection.js,argument=title=Disney+ Unlock Detection
 
-YouTube Premium Unlock Detection = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Crush-7S/Script/main/YouTube%20Premium_Unlock_Detection_English_new.js,argument=title=YouTube Premium Unlock Detection
-
+YouTube Premium Unlock Detection = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Crush-7S/Surge/main/YouTube%20Unlock%20Detection.js,argument=title=YouTube Premium Unlock Detection
 
 #Netflix自动切换
 #NetflixController = type=generic, script-path=https://raw.githubusercontent.com/Crush-7S/Surge/main/NetflixController, timeout=3600, argument=icon1=checkmark.circle&color1=55ba94&icon2=checkmark.circle.trianglebadge.exclamationmark&color2=#9a9ced&icon3=hand.raised.circle&color3=#ea5532&netflixGroup=𝐍𝐞𝐭𝐟𝐥𝐢𝐱
