@@ -7,7 +7,7 @@ const DEFAULT_OPTIONS = {
   fullIcon: '',
   fullIconColor: '',
   fullStyle: 'good',
-  onlyOriginalContent: 'Only supports Original ➟ Region: #REGION_NAME_EN#',
+  onlyOriginalContent: 'Only Supports Original ➟ Region: #REGION_NAME_EN#',
   onlyOriginalIcon: '',
   onlyOriginalIconColor: '',
   onlyOriginalStyle: 'info',
