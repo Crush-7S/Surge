@@ -1,7 +1,5 @@
 #!name=比价
 #!desc=京东，淘宝历史价格
-
-[Script]
 [Script]
 # > 淘宝比价
 http-request ^http:\/\/.+\/amdc\/mobileDispatch requires-body=1,script-path= https://raw.githubusercontent.com/zwf234/rules/master/js/tb_price.js
