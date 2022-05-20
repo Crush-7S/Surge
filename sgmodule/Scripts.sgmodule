@@ -34,7 +34,7 @@ wb_ad.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?://m?ap
 百度搜索防跳转 = type=http-response,pattern=^https?\:\/\/boxer\.baidu\.com\/scheme,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
 
 # 彩云天气 Vip
-彩云天气vip = type=http-response,pattern=https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather,requires-body=1,max-size=0,script-path=https://gitee.com/jexxagn/quan-x/raw/master/rewrite/caiyun_svip.js,script-update-interval=-
+彩云天气vip = type=http-response,pattern=https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather,requires-body=1,max-size=0,script-path=https://gitee.com/jexxagn/quan-x/raw/master/rewrite/caiyun_svip.js,script-update-interval=-1
 
 #bilibili自动换区 
 Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/(pgc\/view\/v\d\/app\/season|x\/v\d\/search\/defaultwords)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
