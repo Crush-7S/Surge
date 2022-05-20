@@ -49,8 +49,6 @@ wb_ad.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?://m?ap
 
 # 彩云天气 Vip
 
-
-
 彩云天气vip = type=http-response,pattern=https:\/\/biz\.caiyunapp\.com\/v2\/user\?,requires-body=1,max-size=0,script-path=https://gitee.com/jexxagn/quan-x/raw/master/rewrite/caiyun_svip.js
 
 
