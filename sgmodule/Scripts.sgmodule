@@ -46,10 +46,12 @@ Bili Search = type=http-request,pattern=^https:\/\/ap(p|i)\.bili(bili|api)\.(com
 #解锁大会员画质
 BiliBili_HD = type=http-response,pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),requires-body=true,script-path=https://github.com/Sunert/Script/raw/master/Script/Bilibili/BiliHD.js
 
+#Web豆瓣电影和电视剧添加便捷播放按钮
+豆瓣电影 = type=http-response,pattern=^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Surge/main/JavaScript/DouBan.js
 
 
 
 
 [MITM]
-hostname = %APPEND% ap?.bilibili.com, ap?.biliapi.net, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, biz.caiyunapp.com, m.douban.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com, mp.weixin.qq.com,boxer.baidu.com,
+hostname = %APPEND% ap?.bilibili.com, ap?.biliapi.net, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, biz.caiyunapp.com, m.douban.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com, mp.weixin.qq.com,boxer.baidu.com,m.douban.com,
 
